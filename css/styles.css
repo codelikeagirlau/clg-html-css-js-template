@@ -27,7 +27,28 @@ a:visited {
 
 .card {
   display: inline;
+  width: 200px;
   margin: 10px  
+}
+
+#header {
+  display: block;
+  height: 200px;
+  text-align: center;
+  background-image: url('/src/header-bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cta-call {
+  background-color: pink;
+}
+
+.cta {
+  border: 2px pink solid;
+  border-radius: 50px;
+  margin: 10px;
+  text-align: center;
 }
 
 img {
